@@ -1,0 +1,109 @@
+@font-face {font-family: "Gotham"; src: url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.eot"); src: url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.woff") format("woff"), url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.svg#Gotham") format("svg"); }
+@font-face {font-family: "Montserrat"; src: url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.eot"); src: url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.woff") format("woff"), url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.svg#Montserrat") format("svg"); }
+body{
+    background-color: #E6EEF2;
+    font-family: "Gotham", Calibri, Tahoma, sans-serif;
+}
+
+.cuerpo{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 40px;
+    max-width: 900px;
+}
+
+.imagenEncabezado{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 95%;
+}
+
+.lineaAzul{
+    height:10px; 
+    color:#5990A5;
+    background-color:#5990A5; 
+    width:80%; 
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: x-large;
+    color: red;
+}
+
+.obligatoriosdiv{
+    text-align: right;
+    margin-right: 9%;
+    margin-top: 1%;
+}
+
+.obligatorios{
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+
+.detalleEvento{
+    margin-left: 5%;
+    font-family: "Montserrat", Calibri, Tahoma, sans-serif;
+}
+
+.elmentoFormularioTitulo{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.asterisc {
+    color: red;
+    font-size: larger;
+}
+
+.elmentoFormularioinput{
+    width: 90%;
+    margin-top: 0px;
+    height: 40px;
+    background-color: #F7F7F7;
+    border: 1px solid #c4c4c4;
+    border-radius: 0;
+    box-shadow: none;
+    color: #787878;
+}
+
+.botonRegistrarse{
+    background: #C53729;
+    border: 0;
+    color: #f7f7f7;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 0%;
+    font-size: 20px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    font-family: "Gotham", Calibri, Tahoma, sans-serif;
+}
+
+.iconColor{
+    width: 20px;
+}
+
+.textoExplicacion{
+	margin-left: 5%;
+	font-size: medium;
+	font-weight: 400;
+	text-align: left;
+	color: black;
+	margin-bottom: 0%;
+	width: 80%;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.error{
+    width: 90%;
+    margin-left: 5%;
+}
