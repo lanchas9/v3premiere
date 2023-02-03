@@ -1,5 +1,12 @@
-@font-face {font-family: "Gotham"; src: url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.eot"); src: url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.woff") format("woff"), url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/51296ff9eb1e16185eb6a1000de5d345.svg#Gotham") format("svg"); }
-@font-face {font-family: "Montserrat"; src: url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.eot"); src: url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.woff") format("woff"), url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0462590be6674a5827956be5045c54de.svg#Montserrat") format("svg"); }
+@font-face {
+    font-family: "Gotham";
+    src: url('./fonts/GOTHAM-BLACK.OTF') format('truetype');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./fonts/Montserrat-Regular.otf') format('truetype');
+}
 body{
     background-color: #E6EEF2;
     font-family: "Gotham", Calibri, Tahoma, sans-serif;
